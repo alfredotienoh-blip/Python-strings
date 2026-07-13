@@ -61,4 +61,8 @@ print(a.lower())
 a = "Hello, World!"
 print(a.lower())
 
+## Replacing a string
+## The replace() method replaces a string with another string.
+a = "Hello, World!"
+print(a.replace("H", "J"))
 
