@@ -57,3 +57,8 @@ print(a.upper())
 a = "Hello, World!"
 print(a.lower())
 
+## Lower case
+a = "Hello, World!"
+print(a.lower())
+
+
