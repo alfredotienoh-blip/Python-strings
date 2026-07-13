@@ -70,3 +70,9 @@ print(a.replace("H", "J"))
 ## The split() method splits the string into substrings if it finds instances of the separator.
 a = "Hello, World, cup!"
 print(a.split(",")) # returns ['Hello', ' World!']
+
+## To concatenate, or combine, two strings you can use the + operator.
+a = "Hello"
+b = "World"
+c = a + b
+print(c)
