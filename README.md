@@ -41,3 +41,8 @@ print(b[:5])
 ## By leaving out the end index, the range will go to the end of the string:
 b = "Hello, World!"
 print(b[2:])
+
+# Negative indexing
+## Use negative indexes to start the slice from the end of the string:
+b = "Hello, World!"
+print(b[-5:-2])
