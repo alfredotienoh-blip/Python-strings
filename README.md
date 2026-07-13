@@ -46,3 +46,9 @@ print(b[2:])
 ## Use negative indexes to start the slice from the end of the string:
 b = "Hello, World!"
 print(b[-5:-2])
+
+# Modify strings
+## Python has a set of built-in methods that you can use on strings.
+## Upper case
+a = "Hello, World!"
+print(a.upper())
