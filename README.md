@@ -66,3 +66,7 @@ print(a.lower())
 a = "Hello, World!"
 print(a.replace("H", "J"))
 
+## Split string
+## The split() method splits the string into substrings if it finds instances of the separator.
+a = "Hello, World, cup!"
+print(a.split(",")) # returns ['Hello', ' World!']
