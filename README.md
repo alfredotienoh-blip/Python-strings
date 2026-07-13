@@ -76,3 +76,9 @@ a = "Hello"
 b = "World"
 c = a + b
 print(c)
+
+## To add a space between them use ""
+a = "Hello"
+b = "World" 
+c = a + " " + b
+print(c)
