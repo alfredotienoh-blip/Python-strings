@@ -82,3 +82,14 @@ a = "Hello"
 b = "World" 
 c = a + " " + b
 print(c)
+
+## String format
+## As we learned in the Python Variables chapter, we cannot combine strings and numbers like this:
+age = 36    
+print("I am " + age) # converts the integer to a string before concatenating
+
+## We can combine strings and numbers by using the format() method!
+## The format() method takes the passed arguments, formats them, and places them in the string where the placeholders {} are:
+age = 36
+txt = f"My name is John, and I am {age}"
+print(txt)
